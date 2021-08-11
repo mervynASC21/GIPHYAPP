@@ -1,0 +1,73 @@
+body {
+    background-color: #151515;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+img {
+    border-radius: 10px;
+}
+p {
+    font-size: 2rem;
+    font-family: monospace;
+}
+
+h1 {
+    text-align: center;
+    color: #d60b52;
+}
+
+input, label {
+    font-size: 2rem;
+    border-radius: 10px;
+    width: auto;
+    outline-style: none;
+}
+
+label {
+    margin-left: 2rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+figcaption {
+    font-size: 1.3rem;
+}
+
+#quoteSearch {
+    font-size: 2rem;
+    border-radius: 10px;
+    border-style: none;
+    background-color: beige;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: .3s;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+#quoteSearch:hover {
+    background-color: rgb(212, 212, 181);
+}
+
+#btnSearch {
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border-style: none;
+    background-color: beige;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: .3s;
+}
+
+#btnSearch:hover {
+    background-color: rgb(212, 212, 181);
+}
+
+.grid {
+    display: grid;
+}
+.grid1x2 {
+    grid-template-columns: repeat(2, 1fr);
+}
